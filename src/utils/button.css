@@ -1,0 +1,15 @@
+.button {
+    background: rgba(255, 110, 78, 0.86);
+    border-radius: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+    width: 327px;
+    height: 56px;
+    border: none;
+   
+}

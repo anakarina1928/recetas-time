@@ -1,0 +1,22 @@
+.inputName {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputName__inf--label{
+
+    font-family: 'Inter';
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #87643E;
+}
+
+.inputName__inf--nameRecet {
+
+    background: #FFFFFF;
+    /* Outline */
+
+    border: 1px solid #D0DBEA;
+    border-radius: 32px;
+    color: #9FA5C0;
+}
