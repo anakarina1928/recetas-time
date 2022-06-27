@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    color: #1FCC79;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+}

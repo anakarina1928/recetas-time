@@ -1,0 +1,23 @@
+.instructions {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.instructions__info--label {
+    font-family: 'Inter';
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #87643E;
+
+}
+
+.instructions__info--textarea {
+
+    background: #FFFFFF;
+    border: 1px solid #D0DBEA;
+    border-radius: 8px;
+    border: 1px solid #D0DBEA;
+    color: #9FA5C0;
+  
+}
