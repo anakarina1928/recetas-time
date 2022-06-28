@@ -1,5 +1,5 @@
 import React from 'react'
-import '../assets/css-addRecet/button-type.css'
+import '../../assets/css-addRecet/button-type.css'
 
 const ButtonTypeTheEat= ({ msj, value }) => {
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../assets/css-addRecet/inputtext.css'
+import '../../assets/css-addRecet/inputtext.css'
 
 const InputTheRecetForm = ({ value, label, placeholder, type }) => {
 
