@@ -4,10 +4,10 @@ import ButtonTypeTheEat from './Button-type'
 import Button from '../utils/button'
 import InputRadio from './input-radio'
 import TexTareaForm from './TexArea'
-import './fomr.css'
+import '../assets/css-addRecet/fomr.css'
 
 
-const FormTheRcet = () => {
+const AddRecet = () => {
 
     return (
         <section className='form' >
@@ -61,4 +61,4 @@ const FormTheRcet = () => {
     )
 }
 
-export default FormTheRcet;
+export default AddRecet;

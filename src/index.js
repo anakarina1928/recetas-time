@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 //import App from './App';
 
-import FormTheRcet from './form/Form'
+import AddRecet from './AddRecet/AddRecet'
 
 ReactDOM.render(
     <BrowserRouter>
-      <FormTheRcet/>
+      <AddRecet/>
     </BrowserRouter>,
     
     document.getElementById('root')

@@ -1,5 +1,5 @@
 import React from 'react'
-import './texTareaForm.css'
+import '../assets/css-addRecet/texTareaForm.css'
 
 const TexTareaForm = ({ value, label, placeholder }) => {
 
