@@ -1,6 +1,6 @@
 import React from 'react'
 import InputTheRecetForm from './Input';
-import './input-radio.css'
+import '../assets/css-addRecet/input-radio.css'
 
 const InputRadio = () => {
 
