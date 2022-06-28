@@ -1,10 +1,10 @@
 import React from 'react'
 import InputTheRecetForm from './Input'
 import ButtonTypeTheEat from './Button-type'
-import Button from '../utils/button'
+import Button from '../../utils/button'
 import InputRadio from './input-radio'
 import TexTareaForm from './TexArea'
-import '../assets/css-addRecet/fomr.css'
+import '../../assets/css-addRecet/fomr.css'
 
 
 const AddRecet = () => {
