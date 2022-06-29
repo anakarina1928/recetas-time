@@ -9,6 +9,7 @@
     font-weight: 700;
     letter-spacing: 0.5px;
     color: #87643E;
+    padding: inherit;
 }
 
 .inputName__inf--nameRecet {
@@ -19,4 +20,5 @@
     border: 1px solid #D0DBEA;
     border-radius: 32px;
     color: #9FA5C0;
+   
 }

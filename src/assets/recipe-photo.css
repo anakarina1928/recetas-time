@@ -1,0 +1,13 @@
+.recipePhoto {
+
+    /* #FFFFFF */
+
+    background: #FFFFFF;
+    /* Outline */
+
+    border: 2px dashed #D0DBEA;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
