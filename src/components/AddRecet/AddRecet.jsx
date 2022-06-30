@@ -8,7 +8,6 @@ import RecipePhoto from './Recipe-photo'
 import SelectCondiments from './selectCondiments/select'
 import CondimentsList from './selectCondiments/CondimentsList'
 import ButtonCondiments from './selectCondiments/ButtonCondiment'
-
 import '../../assets/css-addRecet/fomr.css'
 
 
@@ -25,20 +24,18 @@ const AddRecet = () => {
     const [condimentsSelected, setCondimentsSelected] = useState([]);
     const [condiments, setCondimentes] = useState(condimentsArray);
 
-
+// cambiar funcion para archivos utils
     const condimentsSelectOfUser = (event) => {
-        
-        if(!condimentsSelected.includes( event.target.value)){
+
+        if (!condimentsSelected.includes(event.target.value)) {
 
             console.log("event target: ", event.target.value);
             setCondimentsSelected([...condimentsSelected, event.target.value])
-        }else{
+        } else {
             console.log('ya existe');
         }
 
-        
 
-       
     };
 
 
@@ -51,7 +48,7 @@ const AddRecet = () => {
 
             <form className='form__information'>
 
-                <div className='form__information--nameP'>
+                <div className='form__information--namePhoto'>
                     <InputTheRecetForm
                         label='Nombre de la receta'
                         type="text"
@@ -86,18 +83,16 @@ const AddRecet = () => {
                 />
 
 
-
+                <InputRadio />
                 <CondimentsList>
-                   <SelectCondiments onClick={condimentsSelectOfUser} condiments={condiments}/>
+                    <SelectCondiments onClick={condimentsSelectOfUser} condiments={condiments} />
                     {condimentsSelected.map((item, index) => {
                         return (
-                            <ButtonCondiments item={item} key={index} />                            
-                        )
-
-                    })}
+                            <ButtonCondiments item={item} key={index} />
+                        )})};
                 </CondimentsList>
 
-                <InputRadio />
+
                 <br></br>
                 <div className='form__information--button'>
                     <Button
